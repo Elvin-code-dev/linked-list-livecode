@@ -46,6 +46,7 @@ public class MyLL {
         }
         if(head.value == toRemove){
             head = head.next;
+            return toRemove;
         }
         Node current = head;
 
